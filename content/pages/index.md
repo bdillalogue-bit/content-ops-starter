@@ -1,4 +1,3 @@
-<DOCUMENT filename="index.md">
 ---
 title: Home
 slug: /
@@ -10,9 +9,7 @@ sections:
       type: TitleBlock
     subtitle: Marriott Construction – Dayton, Ohio
     text: >
-      Marriott Construction is a full-service general contractor proudly based in Dayton, Ohio. 
-      With decades of local experience, we deliver high-quality commercial and residential projects 
-      on time and on budget. From ground-up builds to renovations, your vision is built on our reputation.
+      Marriott Construction is a full-service general contractor proudly based in Dayton, Ohio. With decades of local experience, we deliver high-quality commercial and residential projects on time and on budget.
     actions:
       - label: Get a Quote
         altText: ''
@@ -34,7 +31,7 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Marriott Construction – Dayton Ohio construction company
+      altText: Marriott Construction – Dayton, Ohio
       elementId: ''
       type: ImageBlock
     badge:
@@ -68,80 +65,80 @@ sections:
         subtitle: Projects Completed
         text: >-
           Over 500 successful commercial and residential projects across the Greater Dayton area.
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
         image:
           type: ImageBlock
-          altText: Completed projects icon
+          altText: Projects icon
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 30+
+      - type: FeaturedItem
+        title: 30+
         subtitle: Years Experience
         text: >-
-          Three decades serving Dayton and surrounding communities with pride and craftsmanship.
+          Three decades serving Dayton families and businesses with pride and craftsmanship.
         image:
-          url: /images/icon2.svg
+          type: ImageBlock
           altText: Experience icon
           elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-largest
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: 100%
+          url: /images/icon2.svg
+      - type: FeaturedItem
+        title: 100%
         subtitle: Client Satisfaction
         text: >-
-          Committed to clear communication, quality workmanship, and delivering beyond expectations.
+          Committed to quality workmanship and delivering beyond expectations.
         image:
-          url: /images/icon3.svg
+          type: ImageBlock
           altText: Satisfaction icon
           elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
+          url: /images/icon3.svg
     actions:
-      - label: Request a Consultation
-        altText: ''
+      - label: Request Consultation
         url: /
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
         type: Button
-    badge
+    badge:
+      label: Dayton’s Trusted Builder
+      color: text-primary
+      type: Badge
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+
+  - subtitle: Trusted by Dayton-area businesses and homeowners
+    images:
+      - url: /images/empathy-logo.svg
+        altText: Client logo
+        type: ImageBlock
+      - url: /images/wellster-logo.svg
+        altText: Client 2
+        type: ImageBlock
+      - url: /images/vise-logo.svg
+        altText: Client 3
+        type: ImageBlock
+      - url: /images/telus-logo.svg
+        altText: Client 4
+        type: ImageBlock
+      - url: /images/contenful-logo.svg
+        altText: Client 5
+        type: ImageBlock
+      - url: /images/sanity-logo.svg
+        altText: Client 6
+        type: ImageBlock
+      - url: /images/rangle-logo.svg
+        altText: Client 7
+        type: ImageBlock
+    motion: move-to-left
+    colors: bg-light-fg-dark
+    type: ImageGallerySection
+
+  - posts:
+      - content/pages/blog/case-study-1.md
+      - content/pages/blog/case-study-2.md
+      - content/pages/blog/case-study-3.md
+    showThumbnail: true
+    showDate: true
+    showAuthor:
