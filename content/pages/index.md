@@ -1,46 +1,47 @@
+
 ---
 title: Home
 slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Quality Remodeling & Construction You Can Trust
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Serving Dayton, Huber Heights, Fairborn & surrounding areas
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Marriott Construction is a family-owned remodeling and construction company
+      proudly serving the greater Dayton region. From small repairs to complete home
+      transformations, we handle every project with craftsmanship, honesty, and
+      attention to detail. Your home is your biggest investment — let us help you
+      protect and improve it.
     actions:
-      - label: Get started
+      - label: Get Free Estimate
         altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+        url: '#contact'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
+        type: Button
+      - label: Make a Payment
+        altText: Secure online payment
+        url: '#payment'
+        showIcon: true
+        icon: creditCard
+        iconPosition: right
+        style: secondary
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      url: /images/construction-hero.jpg
+      altText: Marriott Construction – Professional home remodeling in Dayton, OH
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Licensed • Bonded • Insured
       color: text-primary
       type: Badge
-    elementId: ''
+    elementId: hero-section
     colors: bg-light-fg-dark
     styles:
       self:
@@ -48,28 +49,27 @@ sections:
         flexDirection: row
         padding:
           - pt-16
-          - pl-16
+          - pl-8
           - pb-16
-          - pr-16
+          - pr-8
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Our Services
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: One call does it all – interior & exterior residential remodeling
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        actions: []
-        elementId: null
+        title: Windows & Doors
+        subtitle: Replacement & Installation
+        text: Energy-efficient windows, entry doors, patio doors, and storm doors.
+        image:
+          url: /images/icon-windows.svg
+          altText: Windows icon
+          type: ImageBlock
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -79,29 +79,15 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
+            textAlign: center
+      - type: FeaturedItem
+        title: Siding, Soffit & Gutters
+        subtitle: Exterior Upgrades
+        text: Vinyl, fiber cement, aluminum siding, seamless gutters, soffit & fascia.
         image:
+          url: /images/icon-siding.svg
+          altText: Siding icon
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
-          url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
-          type: ImageBlock
-        actions: []
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -111,22 +97,15 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+            textAlign: center
+      - type: FeaturedItem
+        title: Decks & Room Additions
+        subtitle: Expand Your Living Space
+        text: Custom decks, porches, sunrooms, garage additions, and full room build-outs.
         image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
+          url: /images/icon-deck.svg
+          altText: Deck icon
           type: ImageBlock
-        actions: []
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -136,480 +115,16 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: This is a badge
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - subtitle: Award winning enterprises trust us
-    images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
-        type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
-        type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
-        type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
-        type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - title:
-      text: Grow your business 10x faster
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Key Benefits
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
-  - type: GenericSection
-    title:
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-  - title:
-      text: Social Media Management
-      color: text-dark
-      type: TitleBlock
-    subtitle: Increase your reach
-    text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero2.svg
-      altText: Fun feature preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - type: CarouselSection
-    title: null
-    subtitle: What our customers say about us
-    items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+            textAlign: center
+      - type: FeaturedItem
+        title: Interior Remodeling
+        subtitle: Kitchens, Baths & More
+        text: Drywall, painting, flooring, trim, lighting, full kitchen & bathroom remodels.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
+          url: /images/icon-interior.svg
+          altText: Interior remodeling icon
           type: ImageBlock
-        actions: []
         colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - title:
-      text: List of features here
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Featured items section subtitle
-    items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
         styles:
           self:
             padding:
@@ -618,55 +133,8 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-    variant: three-col-grid
+            textAlign: center
+    variant: four-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -676,19 +144,140 @@ sections:
           - pb-16
           - pr-8
         justifyContent: center
+  - subtitle: Trusted by homeowners throughout the Miami Valley
+    images:
+      - url: /images/logo-dayton.svg
+        altText: Dayton OH
+        type: ImageBlock
+      - url: /images/logo-huberheights.svg
+        altText: Huber Heights OH
+        type: ImageBlock
+      - url: /images/logo-fairborn.svg
+        altText: Fairborn OH
+        type: ImageBlock
+      - url: /images/logo-beavercreek.svg
+        altText: Beavercreek OH
+        type: ImageBlock
+      - url: /images/logo-kettering.svg
+        altText: Kettering OH
+        type: ImageBlock
+      - url: /images/logo-vandalia.svg
+        altText: Vandalia OH
+        type: ImageBlock
+    motion: move-to-left
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+    type: ImageGallerySection
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-12
+          - pb-12
+    type: DividerSection
+  - type: GenericSection
+    title:
+      text: See Why Homeowners Choose Marriott Construction
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Real projects, real results
+    media:
+      title: Before & After Transformations
+      url: /images/remodeling-showcase.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: true
+      aspectRatio: '16:9'
+      type: VideoBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        justifyContent: center
+  - type: CarouselSection
+    subtitle: What our customers are saying
+    items:
+      - title: "They completely transformed our outdated kitchen into our dream space!"
+        subtitle: Sarah M. – Huber Heights
+        text: Professional crew, clean worksite, finished on time and on budget. Highly recommend!
+        image:
+          url: /images/review-1.jpg
+          altText: Customer photo
+          type: ImageBlock
+        type: FeaturedItem
+      - title: "Best decision we made was hiring Marriott for our new deck and siding."
+        subtitle: Mike D. – Fairborn
+        text: Attention to detail was incredible. The house looks brand new!
+        image:
+          url: /images/review-2.jpg
+          altText: Customer photo
+          type: ImageBlock
+        type: FeaturedItem
+      - title: "Replaced all windows and added a sunroom – outstanding workmanship."
+        subtitle: Linda T. – Dayton
+        text: Courteous, knowledgeable, and fairly priced. Will use them for every future project.
+        image:
+          url: /images/review-3.jpg
+          altText: Customer photo
+          type: ImageBlock
+        type: FeaturedItem
+    variant: next-prev-nav
+    colors: bg-light-fg-dark
+    styles:
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
+  - type: GenericSection
+    title:
+      text: Ready to Start Your Project?
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    subtitle: Get your free, no-obligation estimate today
+    text: Serving Dayton • Huber Heights • Fairborn • Beavercreek • Kettering • Vandalia and all surrounding communities.
+    actions:
+      - label: Request Quote
+        url: '#contact'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+    colors: bg-neutral-fg-light
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-16
+          - pb-16
+  - type: GenericSection
+    elementId: payment
+    title:
+      text: Make a Secure Payment
+      color: text-dark
+      type: TitleBlock
+    text: >
+      <script type="text/javascript" src="https://pci.jotform.com/jsform/253428759521060"></script>
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-12
+          - pb-12
+          - pl-8
+          - pr-8
+  - type: GenericSection
+    elementId: contact
+    title:
+      text: Contact Marriott Construction
+      color: text-dark
+      type: TitleBlock
+    subtitle: We typically respond the same day
     media:
       fields:
         - name: name
@@ -698,50 +287,44 @@ sections:
           isRequired: true
           width: full
           type: TextFormControl
+        - name: phone
+          label: Phone
+          hideLabel: true
+          placeholder: Your phone number
+          isRequired: true
+          width: full
+          type: TelFormControl
         - name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
-          isRequired: true
+          placeholder: Your email (optional)
           width: full
           type: EmailFormControl
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Tell us about your project...
           width: full
           type: TextareaFormControl
       elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
       type: FormBlock
       submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
+        label: Send Message
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: null
+        type: SubmitButtonFormControl
     badge:
-      label: Contact Us
+      label: Free Estimates
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
-    type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Marriott Construction | Home Remodeling Contractor Dayton OH
+  metaDescription: Professional residential remodeling serving Dayton, Huber Heights, Fairborn & surrounding areas. Windows, siding, decks, room additions, kitchens, baths & more.
+  socialImage: /images/construction-hero.jpg
   type: Seo
 type: PageLayout
 ---
+</DOCUMENT>
